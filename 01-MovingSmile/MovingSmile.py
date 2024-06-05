@@ -30,6 +30,7 @@ def main():
         pygame.draw.circle(screen, (0, 0, 0), (398, 162), 7)  # black pupil
 
         # TODO 1: Draw a nose
+        pygame.draw.circle(screen, (20, 0, 0), (320, 245), 35)
         # Suggestion: color (80,0,0) location (320,245), radius 10
         # API --> pygame.draw.circle(screen, (r,g,b), (x, y), radius, thickness)
 
